@@ -30,10 +30,12 @@ export class ContactForm extends Component {
 
   render() {
     return (
-      <Form onSubmit={this.handleSubmit}>
+      <Form 
+      onSubmit={this.handleSubmit} 
+      autoComplete="off">
         <Label>
           Name
-          <InputItem
+          <InputItem          
             onChange={this.onInputChange}
             value={this.state.name}
             name="name"
