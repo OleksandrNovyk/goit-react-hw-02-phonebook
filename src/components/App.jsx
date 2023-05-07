@@ -8,7 +8,7 @@ import { Filter } from './Filter/Filter';
 import { ContactList } from './ContactList/ContactList';
 
 const notifySettings = {
-  width: '380px',
+  width: '300px',
   position: 'right-top',
   distance: '10px',
   opacity: 1,
