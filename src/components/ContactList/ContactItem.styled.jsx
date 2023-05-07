@@ -9,7 +9,8 @@ export const ListItem = styled.li`
   font-size: 20px;
   padding: 32px;
   border-radius: 12px;
-  background-color: hsla(215, 98%, 79%, 0.1);
+  background-color: hsla(215, 98%, 79%, 0.5);
+  border: 2px solid blanchedalmond;
   box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
 `;
 
