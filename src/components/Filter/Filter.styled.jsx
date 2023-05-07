@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FilterWrapper = styled.div`
-  min-width: 50vw;
+  min-width: 40vw;
   display: flex;
   justify-content: stretch;
   align-items: center;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ListItem = styled.li`
-  min-width: 50vw;
+  min-width: 40vw;
   display: flex;
   font-weight: bold;
   justify-content: space-between;
