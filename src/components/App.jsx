@@ -2,7 +2,7 @@ import React from 'react';
 import { nanoid } from 'nanoid';
 import Notiflix from 'notiflix';
 
-import { Container, MainHeader, SubHeader } from './App.styled';
+import { Container, FirstHeader, SecondHeader } from './App.styled';
 import { ContactForm } from './ContactForm/ContactForm';
 import { Filter } from './Filter/Filter';
 import { ContactList } from './ContactList/ContactList';
@@ -84,9 +84,9 @@ export class App extends React.Component {
   render() {
     return (
       <Container>
-        <MainHeader>Phonebook</MainHeader>
+        <FirstHeader>Phonebook</FirstHeader>
         <ContactForm onAddBtnClick={this.onAddBtnClick} />
-        <SubHeader>Contacts</SubHeader>
+        <SecondHeader>Contacts</SecondHeader>
         <Filter value={this.state.filter} onChange={this.onFilterChange} />
         <ContactList
           contacts={this.filterContacts()}
