@@ -87,10 +87,12 @@ export class App extends React.Component {
         <FirstHeader>Phonebook</FirstHeader>
         <ContactForm onAddBtnClick={this.onAddBtnClick} />
         <SecondHeader>Contacts</SecondHeader>
-        <Filter value={this.state.filter} onChange={this.onFilterChange} />
+        <Filter 
+        value={this.state.filter} 
+        onChange={this.onFilterChange} />
         <ContactList
-          contacts={this.filterContacts()}
-          onDeleteBtnClick={this.onDeleteBtnClick}
+        contacts={this.filterContacts()}
+        onDeleteBtnClick={this.onDeleteBtnClick}
         />
       </Container>
     );
